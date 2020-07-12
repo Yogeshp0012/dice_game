@@ -44,6 +44,7 @@ document.querySelector('.btn-hold').addEventListener('click',function() {
 	else {
 	roundScore = 0;
 	document.getElementById('current-0').textContent = '0';
+	document.getElementById('current-1').textContent = '0';
 	activePlayer === 0 ? activePlayer = 1 : activePlayer = 0;
 	document.querySelector('.player-0-panel').classList.toggle('active');
 	document.querySelector('.player-1-panel').classList.toggle('active');
